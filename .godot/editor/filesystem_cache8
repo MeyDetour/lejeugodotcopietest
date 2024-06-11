@@ -1,11 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718106056
-icon.svg::CompressedTexture2D::2227310069508852735::1718030531::1718090405::1::::<><>::
-README.md::TextFile::-1::1718030531::0::1::::<><>::
-::res://assets/::1718104779
-Cute Yui .png::CompressedTexture2D::6037211628849982008::1718104778::1718104779::1::::<><>::
-player.gd::GDScript::-1::1718106118::0::1::::<>CharacterBody2D<>::
-::res://scene/::1718030531
-game.tscn::PackedScene::1671490572560784920::1718030531::0::1::::<><>::
-player.tscn::PackedScene::1710210770657765997::1718030531::0::1::::<><>::
-::res://scripts/::1718106056
+::res://::1718086716
+icon.svg::CompressedTexture2D::2227310069508852735::1718023614::1718023793::1::::<><>::
+README.md::TextFile::-1::1718023614::0::1::::<><>::
+::res://assets/::1718086716
+::res://assets/Characters/::1718084602
+Bonus.png::CompressedTexture2D::3663342520309101244::1718084590::1718084602::1::::<><>::
+Cute Yui .png::CompressedTexture2D::2910911615532905813::1718084590::1718084602::1::::<><>::
+femaleIdle.png::CompressedTexture2D::8052790152741207207::1718084590::1718084602::1::::<><>::
+::res://assets/item/::1718084602
+Door1.png::CompressedTexture2D::1721571807186200363::1718084590::1718084602::1::::<><>::
+Inside_C.png::CompressedTexture2D::3085898048504847442::1718084590::1718084602::1::::<><>::
+Inside_D.png::CompressedTexture2D::5371022635729631051::1718084590::1718084602::1::::<><>::
+Inside_E.png::CompressedTexture2D::7741088824016230864::1718084590::1718084602::1::::<><>::
+::res://assets/map/::1718086716
+A4.png::CompressedTexture2D::2136574243723259820::1718084590::1718086716::1::::<><>::
+A5.png::CompressedTexture2D::6482921541306635296::1718084590::1718084602::1::::<><>::
+::res://assets/menu/::1718084602
+fondhorreur.webp::CompressedTexture2D::8697645479882388495::1718084590::1718084602::1::::<><>::
+inventory.png::CompressedTexture2D::5320919951511202935::1718084590::1718084602::1::::<><>::
+::res://scene/::1718084602
+game.tscn::PackedScene::1671490572560784920::1718023614::0::1::::<><>::
+player.tscn::PackedScene::1710210770657765997::1718023614::0::1::::<><>::

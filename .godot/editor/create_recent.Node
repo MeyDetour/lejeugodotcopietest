@@ -1,4 +1,4 @@
-CollisionShape2D
-AnimatedSprite2D
+Camera2D
+TileMap
 AnimatableBody2D
 CharacterBody2D
