@@ -1,24 +1,35 @@
 extends CharacterBody2D
 
+const speed = 250.0
 
-const speed = 200.0
+@onready var animated_sprite = $AnimatedSprite2D
 
 func _physics_process(delta):
-	pass
 	
-func player_movement(delta):
-	
-	if Input.is_action_pressed("ui_right"):
+	if Input.is_action_pressed("move_right"):
+		animated_sprite.play("right_walk")
 		velocity.x = speed
 		velocity.y = 0
-	elif Input.is_action_pressed("ui_left"):
+	elif Input.is_action_pressed("move_left"):
+		animated_sprite.play("left_walk")
 		velocity.x = - speed
 		velocity.y = 0
-	elif Input.is_action_pressed("ui_down"):
+	elif Input.is_action_pressed("move_front"):
+		animated_sprite.play("front_walk")
 		velocity.x = 0
 		velocity.y = speed
-	elif Input.is_action_pressed("ui_up"):
+	elif Input.is_action_pressed("move_back"):
+		animated_sprite.play("back_walk")
 		velocity.x = 0
 		velocity.y = - speed
+	else:
+		animated_sprite.play("idle")
+		velocity.x = 0
+		velocity.y = 0
+		
+	move_and_slide()
+	
+	
+
 
 

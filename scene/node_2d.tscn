@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://f24dm8044lkf"]
+[gd_scene load_steps=11 format=3 uid="uid://f24dm8044lkf"]
 
 [ext_resource type="Texture2D" uid="uid://5o8ch41yeqns" path="res://assets/map/A4.png" id="1_24cj8"]
 [ext_resource type="Texture2D" uid="uid://cir07ts628xkd" path="res://assets/item/Inside_D.png" id="2_lglqy"]
 [ext_resource type="Texture2D" uid="uid://dij3up324hjf1" path="res://assets/item/Inside_E.png" id="3_gbki8"]
 [ext_resource type="Texture2D" uid="uid://bj73j4ikfh6ti" path="res://assets/item/Inside_C.png" id="4_h6ekr"]
+[ext_resource type="PackedScene" uid="uid://ymo6ljy15uvd" path="res://scene/player.tscn" id="5_d4eb4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y0svn"]
 texture = ExtResource("1_24cj8")
@@ -2077,3 +2078,7 @@ layer_2/tile_data = PackedInt32Array(-131067, 720904, 21, -262142, 720904, 21, -
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(159, -216)
 zoom = Vector2(1.4, 1.4)
+
+[node name="player" parent="." instance=ExtResource("5_d4eb4")]
+z_index = 5
+position = Vector2(260, -137)
