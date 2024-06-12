@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://f24dm8044lkf"]
+[gd_scene load_steps=13 format=3 uid="uid://f24dm8044lkf"]
 
 [ext_resource type="Texture2D" uid="uid://5o8ch41yeqns" path="res://assets/map/A4.png" id="1_06uuy"]
 [ext_resource type="Texture2D" uid="uid://cir07ts628xkd" path="res://assets/item/Inside_D.png" id="2_m8gxs"]
 [ext_resource type="Texture2D" uid="uid://dij3up324hjf1" path="res://assets/item/Inside_E.png" id="3_qjwac"]
 [ext_resource type="Texture2D" uid="uid://bj73j4ikfh6ti" path="res://assets/item/Inside_C.png" id="4_4pr37"]
+[ext_resource type="PackedScene" uid="uid://ymo6ljy15uvd" path="res://scene/player.tscn" id="5_have4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y0svn"]
 texture = ExtResource("1_06uuy")
@@ -2120,3 +2121,6 @@ texture = SubResource("GradientTexture2D_cxibn")
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
 energy = 0.58
 blend_mode = 1
+
+[node name="player" parent="." instance=ExtResource("5_have4")]
+position = Vector2(152, -182)
