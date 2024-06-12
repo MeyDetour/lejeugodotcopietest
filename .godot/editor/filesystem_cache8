@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718169751
+::res://::1718106184
 export_presets.cfg::TextFile::-1::1718103542::0::1::::<><>::
 icon.svg::CompressedTexture2D::2227310069508852735::1718023614::1718023793::1::::<><>::
 README.md::TextFile::-1::1718023614::0::1::::<><>::
@@ -21,10 +21,9 @@ A5.png::CompressedTexture2D::6482921541306635296::1718084590::1718084602::1::::<
 ::res://assets/menu/::1718084602
 fondhorreur.webp::CompressedTexture2D::8697645479882388495::1718084590::1718084602::1::::<><>::
 inventory.png::CompressedTexture2D::5320919951511202935::1718084590::1718084602::1::::<><>::
-::res://scene/::1718110573
-1ers_alle_de_classe.tscn::PackedScene::408449250156257693::1718108789::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
-couloir_du_bas.tscn::PackedScene::9142342549385804835::1718108789::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
-cowoorking.tscn::PackedScene::8138963314896890339::1718110573::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png
+::res://scene/::1718105889
+1ers_alle_de_classe.tscn::PackedScene::408449250156257693::1718105545::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
+couloir_du_bas.tscn::PackedScene::9142342549385804835::1718105543::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
 game.tscn::PackedScene::1671490572560784920::1718023614::0::1::::<><>::
 player.tscn::PackedScene::1710210770657765997::1718105889::0::1::::<><>::res://scripts/player.gd<>uid://csap81pyom73a::::res://assets/Cute Yui .png
 ::res://scripts/::1718105889

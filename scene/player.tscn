@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://ymo6ljy15uvd"]
+[gd_scene load_steps=17 format=3 uid="uid://ymo6ljy15uvd"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_sqssp"]
 [ext_resource type="Texture2D" uid="uid://csap81pyom73a" path="res://assets/Cute Yui .png" id="2_81rku"]
@@ -26,6 +26,10 @@ region = Rect2(32, 4, 32, 65)
 [sub_resource type="AtlasTexture" id="AtlasTexture_uphxo"]
 atlas = ExtResource("2_81rku")
 region = Rect2(64, 4, 32, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_awv6m"]
+atlas = ExtResource("2_81rku")
+region = Rect2(32, 4, 32, 65)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mdktc"]
 atlas = ExtResource("2_81rku")
@@ -83,6 +87,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_awv6m")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_mdktc")
 }, {
 "duration": 1.0,
@@ -114,7 +126,10 @@ animations = [{
 script = ExtResource("1_sqssp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 5
+position = Vector2(0, -30)
 sprite_frames = SubResource("SpriteFrames_3hylf")
-animation = &"left_walk"
+animation = &"front_walk"
+frame_progress = 0.21618
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

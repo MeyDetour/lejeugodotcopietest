@@ -1,0 +1,118 @@
+[gd_scene load_steps=15 format=3 uid="uid://p745cvp144ff"]
+
+[ext_resource type="Texture2D" uid="uid://cn1ki0eel1ov0" path="res://assets/Zombies/Zombies/1ZombieSpriteSheet.png" id="1_1pl5i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_32bwf"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(0, 72, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nnbqk"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(41, 72, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bqjd"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(82, 72, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62i6o"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(0, 0, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4m37"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(41, 0, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bj4qr"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(82, 0, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c6l2w"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(0, 108, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h54lc"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(41, 108, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v82ll"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(82, 108, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bvfo"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(0, 36, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pf01j"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(41, 36, 41, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xhwh4"]
+atlas = ExtResource("1_1pl5i")
+region = Rect2(82, 36, 41, 36)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h1uvs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_32bwf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nnbqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bqjd")
+}],
+"loop": true,
+"name": &"walk_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62i6o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4m37")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bj4qr")
+}],
+"loop": true,
+"name": &"walk_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c6l2w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h54lc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v82ll")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8bvfo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pf01j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xhwh4")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 5.0
+}]
+
+[node name="Zombie 1" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, -17)
+sprite_frames = SubResource("SpriteFrames_h1uvs")
+animation = &"walk_front"
+frame_progress = 0.301181
