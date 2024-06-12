@@ -1,19 +1,9 @@
-<<<<<<<< HEAD:scene/node_2d.tscn
-[gd_scene load_steps=11 format=3 uid="uid://f24dm8044lkf"]
-
-[ext_resource type="Texture2D" uid="uid://5o8ch41yeqns" path="res://assets/map/A4.png" id="1_24cj8"]
-[ext_resource type="Texture2D" uid="uid://cir07ts628xkd" path="res://assets/item/Inside_D.png" id="2_lglqy"]
-[ext_resource type="Texture2D" uid="uid://dij3up324hjf1" path="res://assets/item/Inside_E.png" id="3_gbki8"]
-[ext_resource type="Texture2D" uid="uid://bj73j4ikfh6ti" path="res://assets/item/Inside_C.png" id="4_h6ekr"]
-[ext_resource type="PackedScene" uid="uid://ymo6ljy15uvd" path="res://scene/player.tscn" id="5_d4eb4"]
-========
 [gd_scene load_steps=12 format=3 uid="uid://f24dm8044lkf"]
 
 [ext_resource type="Texture2D" uid="uid://5o8ch41yeqns" path="res://assets/map/A4.png" id="1_06uuy"]
 [ext_resource type="Texture2D" uid="uid://cir07ts628xkd" path="res://assets/item/Inside_D.png" id="2_m8gxs"]
 [ext_resource type="Texture2D" uid="uid://dij3up324hjf1" path="res://assets/item/Inside_E.png" id="3_qjwac"]
 [ext_resource type="Texture2D" uid="uid://bj73j4ikfh6ti" path="res://assets/item/Inside_C.png" id="4_4pr37"]
->>>>>>>> refs/remotes/origin/main:scene/1ers_alle_de_classe.tscn
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y0svn"]
 texture = ExtResource("1_06uuy")
@@ -2120,11 +2110,6 @@ layer_3/tile_data = PackedInt32Array(-131067, 720904, 21, -262142, 720904, 21, -
 position = Vector2(159, -216)
 zoom = Vector2(1.4, 1.4)
 
-<<<<<<<< HEAD:scene/node_2d.tscn
-[node name="player" parent="." instance=ExtResource("5_d4eb4")]
-z_index = 5
-position = Vector2(260, -137)
-========
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(171, -175)
 scale = Vector2(7.71875, 4.16667)
@@ -2135,4 +2120,3 @@ texture = SubResource("GradientTexture2D_cxibn")
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
 energy = 0.58
 blend_mode = 1
->>>>>>>> refs/remotes/origin/main:scene/1ers_alle_de_classe.tscn
