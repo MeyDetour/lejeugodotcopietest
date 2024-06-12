@@ -1,3 +1,6 @@
 res://scene/couloir_du_bas.tscn
-res://scene/1ers_alle_de_classe.tscn
 res://scene/cowoorking.tscn
+res://scene/game.tscn
+res://scene/player.tscn
+res://scene/zombie_1.tscn
+res://scripts/player.gd

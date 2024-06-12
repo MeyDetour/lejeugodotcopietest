@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://ymo6ljy15uvd"]
+[gd_scene load_steps=18 format=3 uid="uid://ymo6ljy15uvd"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_sqssp"]
 [ext_resource type="Texture2D" uid="uid://csap81pyom73a" path="res://assets/Cute Yui .png" id="2_81rku"]
@@ -122,6 +122,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y6gfw"]
+size = Vector2(23, 22)
+
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_sqssp")
 
@@ -130,6 +133,8 @@ z_index = 5
 position = Vector2(0, -30)
 sprite_frames = SubResource("SpriteFrames_3hylf")
 animation = &"front_walk"
-frame_progress = 0.21618
+frame_progress = 0.481623
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.5, -11)
+shape = SubResource("RectangleShape2D_y6gfw")
