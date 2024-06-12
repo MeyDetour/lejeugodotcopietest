@@ -1,4 +1,6 @@
-res://scene/player.tscn
-res://scripts/player.gd
+res://scene/couloir_du_bas.tscn
+res://scene/cowoorking.tscn
 res://scene/game.tscn
-res://scene/node_2d.tscn
+res://scene/player.tscn
+res://scene/zombie_1.tscn
+res://scripts/player.gd

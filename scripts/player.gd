@@ -6,19 +6,19 @@ const speed = 250.0
 
 func _physics_process(delta):
 	
-	if Input.is_action_pressed("move_right"):
+	if Input.is_action_pressed("walk_right"):
 		animated_sprite.play("right_walk")
 		velocity.x = speed
 		velocity.y = 0
-	elif Input.is_action_pressed("move_left"):
+	elif Input.is_action_pressed("walk_left"):
 		animated_sprite.play("left_walk")
 		velocity.x = - speed
 		velocity.y = 0
-	elif Input.is_action_pressed("move_front"):
+	elif Input.is_action_pressed("walk_front"):
 		animated_sprite.play("front_walk")
 		velocity.x = 0
 		velocity.y = speed
-	elif Input.is_action_pressed("move_back"):
+	elif Input.is_action_pressed("walk_back"):
 		animated_sprite.play("back_walk")
 		velocity.x = 0
 		velocity.y = - speed

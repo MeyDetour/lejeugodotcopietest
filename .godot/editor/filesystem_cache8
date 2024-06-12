@@ -1,11 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718106994
+::res://::1718186034
+export_presets.cfg::TextFile::-1::1718184377::0::1::::<><>::
 icon.svg::CompressedTexture2D::2227310069508852735::1718030531::1718090405::1::::<><>::
-node_2d.tscn::PackedScene::-1::1718106800::0::1::::<><>::
 README.md::TextFile::-1::1718030531::0::1::::<><>::
-::res://assets/::1718106994
+test.tres::MeshLibrary::603860371543240511::1718184378::0::1::::<><>::
+::res://assets/::1718185056
 Cute Yui .png::CompressedTexture2D::6037211628849982008::1718104778::1718104779::1::::<><>::
-::res://assets/Characters/::1718106994
+::res://assets/Characters/::1718179271
 Bonus.png::CompressedTexture2D::3663342520309101244::1718106994::1718106994::1::::<><>::
 Cute Yui .png::CompressedTexture2D::2910911615532905813::1718106994::1718106994::1::::<><>::
 femaleIdle.png::CompressedTexture2D::8052790152741207207::1718106994::1718106994::1::::<><>::
@@ -20,8 +21,37 @@ A5.png::CompressedTexture2D::6482921541306635296::1718106994::1718106994::1::::<
 ::res://assets/menu/::1718106994
 fondhorreur.webp::CompressedTexture2D::8697645479882388495::1718106994::1718106994::1::::<><>::
 inventory.png::CompressedTexture2D::5320919951511202935::1718106994::1718106994::1::::<><>::
-::res://scene/::1718106756
-game.tscn::PackedScene::1671490572560784920::1718030531::0::1::::<><>::
-player.tscn::PackedScene::1710210770657765997::1718106756::0::1::::<><>::res://scripts/player.gd<>uid://csap81pyom73a::::res://assets/Cute Yui .png
-::res://scripts/::1718106756
-player.gd::GDScript::-1::1718106756::0::1::::<>CharacterBody2D<>::
+::res://assets/Zombies/::1718185057
+::res://assets/Zombies/Zombies/::1718185077
+1ZombieSpriteSheet.png::CompressedTexture2D::5739592932025532571::1718180339::1718185077::1::::<><>::
+2ZombieSpriteSheet.png::CompressedTexture2D::5964726363871943228::1718180339::1718185077::1::::<><>::
+3ZombieSpriteSheet.png::CompressedTexture2D::8113523288323635613::1718180339::1718185077::1::::<><>::
+4ZombieFrontSPAWN.png::CompressedTexture2D::7486268783642175655::1718180339::1718185077::1::::<><>::
+4ZombieSpriteSheet.png::CompressedTexture2D::3330251951674494211::1718180339::1718185077::1::::<><>::
+5ZombieSpriteSheet.png::CompressedTexture2D::6946711944362424697::1718180339::1718185077::1::::<><>::
+6ZombieFrontSPITTER.png::CompressedTexture2D::8421057481019415612::1718180339::1718185077::1::::<><>::
+6ZombieSpriteSheet.png::CompressedTexture2D::4831509898149991107::1718180339::1718185077::1::::<><>::
+Slime.png::CompressedTexture2D::8904228976141037955::1718180339::1718185077::1::::<><>::
+::res://assets/Zombies/__MACOSX/::1718185057
+::res://assets/Zombies/__MACOSX/Zombies/::1718185057
+._1ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._2ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._3ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._4ZombieFrontSPAWN.png::::-1::0::0::0::::<><>::
+._4ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._5ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._6ZombieFrontSPITTER.png::::-1::0::0::0::::<><>::
+._6ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
+._Slime.png::::-1::0::0::0::::<><>::
+::res://scene/::1718186077
+1ers_alle_de_classe.tscn::PackedScene::-1::1718184385::0::1::::<><>::
+couloir_du_bas.tscn::PackedScene::9142342549385804835::1718186076::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
+cowoorking.tscn::PackedScene::8138963314896890339::1718186076::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://ymo6ljy15uvd::::res://scene/player.tscn
+game.tscn::PackedScene::1671490572560784920::1718186076::0::1::::<><>::
+player.tscn::PackedScene::1710210770657765997::1718186077::0::1::::<><>::res://scripts/player.gd<>uid://csap81pyom73a::::res://assets/Cute Yui .png
+zombie_1.tscn::PackedScene::1120707247512815563::1718186077::0::1::::<><>::uid://cn1ki0eel1ov0::::res://assets/Zombies/Zombies/1ZombieSpriteSheet.png
+zombie_2.tscn::PackedScene::7881745512865930909::1718183814::0::1::::<><>::uid://cq8mf3sxd6ci3::::res://asset/Zombies/Zombies/2ZombieSpriteSheet.png
+zombie_3.tscn::PackedScene::6076107565608677479::1718184046::0::1::::<><>::uid://dnuisp5jyxolx::::res://asset/Zombies/Zombies/3ZombieSpriteSheet.png
+zombie_4.tscn::PackedScene::71038427122857262::1718184283::0::1::::<><>::uid://bnpg07eog8sid::::res://asset/Zombies/Zombies/4ZombieSpriteSheet.png
+::res://scripts/::1718186076
+player.gd::GDScript::-1::1718186076::0::1::::<>CharacterBody2D<>::

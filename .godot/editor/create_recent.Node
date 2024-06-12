@@ -1,3 +1,6 @@
+PointLight2D
+Node
+DirectionalLight2D
 Camera2D
 TileMap
 AnimatableBody2D
