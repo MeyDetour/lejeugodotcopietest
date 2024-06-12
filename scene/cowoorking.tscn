@@ -1,9 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://dn7tsinvmyr3h"]
+[gd_scene load_steps=12 format=3 uid="uid://dn7tsinvmyr3h"]
 
 [ext_resource type="Texture2D" uid="uid://5o8ch41yeqns" path="res://assets/map/A4.png" id="1_d4uar"]
 [ext_resource type="Texture2D" uid="uid://bj73j4ikfh6ti" path="res://assets/item/Inside_C.png" id="2_wxb8q"]
 [ext_resource type="Texture2D" uid="uid://cir07ts628xkd" path="res://assets/item/Inside_D.png" id="3_6ybq0"]
-[ext_resource type="PackedScene" uid="uid://ymo6ljy15uvd" path="res://scene/player.tscn" id="4_5gunx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u85hv"]
 texture = ExtResource("1_d4uar")
@@ -474,6 +473,3 @@ position = Vector2(-34, -549)
 scale = Vector2(1.4375, 1.32813)
 color = Color(0.996078, 0.639216, 0.494118, 1)
 texture = SubResource("GradientTexture2D_k5sj4")
-
-[node name="player" parent="." instance=ExtResource("4_5gunx")]
-position = Vector2(-487, -719)
