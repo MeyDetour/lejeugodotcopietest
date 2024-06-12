@@ -1,3 +1,5 @@
+AnimatedSprite2D
+CharacterBody2D
 TileMap
 PointLight2D
 DirectionalLight2D
@@ -5,4 +7,3 @@ LightmapGI
 Node
 Camera2D
 AnimatableBody2D
-CharacterBody2D

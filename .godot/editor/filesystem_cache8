@@ -43,14 +43,15 @@ Slime.png::CompressedTexture2D::8904228976141037955::1718186378::1718185077::1::
 ._6ZombieFrontSPITTER.png::::-1::0::0::0::::<><>::
 ._6ZombieSpriteSheet.png::::-1::0::0::0::::<><>::
 ._Slime.png::::-1::0::0::0::::<><>::
-::res://scene/::1718191966
+::res://scene/::1718192880
 1ers_alle_de_classe.tscn::PackedScene::-1::1718184385::0::1::::<><>::
+cafetaria.tscn::PackedScene::-1::1718192880::0::1::::<><>::
 couloir_du_bas.tscn::PackedScene::9142342549385804835::1718191966::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png<>uid://dij3up324hjf1::::res://assets/item/Inside_E.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png
 couloir_etage.tscn::PackedScene::-1::1718191639::0::1::::<><>::
 cowoorking.tscn::PackedScene::8138963314896890339::1718191966::0::1::::<><>::uid://5o8ch41yeqns::::res://assets/map/A4.png<>uid://bj73j4ikfh6ti::::res://assets/item/Inside_C.png<>uid://cir07ts628xkd::::res://assets/item/Inside_D.png
 game.tscn::PackedScene::1671490572560784920::1718191966::0::1::::<><>::
 lab.tscn::PackedScene::-1::1718191639::0::1::::<><>::
-player.tscn::PackedScene::1710210770657765997::1718191966::0::1::::<><>::res://scripts/player.gd<>uid://csap81pyom73a::::res://assets/Cute Yui .png
+player.tscn::PackedScene::1710210770657765997::1718192781::0::1::::<><>::res://scripts/player.gd<>uid://csap81pyom73a::::res://assets/Cute Yui .png
 zombie_1.tscn::PackedScene::1120707247512815563::1718191966::0::1::::<><>::uid://cn1ki0eel1ov0::::res://assets/Zombies/Zombies/1ZombieSpriteSheet.png
 zombie_2.tscn::PackedScene::7881745512865930909::1718183814::0::1::::<><>::uid://cq8mf3sxd6ci3::::res://asset/Zombies/Zombies/2ZombieSpriteSheet.png
 zombie_3.tscn::PackedScene::6076107565608677479::1718184046::0::1::::<><>::uid://dnuisp5jyxolx::::res://asset/Zombies/Zombies/3ZombieSpriteSheet.png
