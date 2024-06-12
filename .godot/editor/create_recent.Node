@@ -1,7 +1,8 @@
 PointLight2D
-Node
 DirectionalLight2D
-Camera2D
 TileMap
+LightmapGI
+Node
+Camera2D
 AnimatableBody2D
 CharacterBody2D
